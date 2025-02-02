@@ -55,6 +55,10 @@ main {
   margin-top: 80px; /* To prevent content from being hidden behind the sticky header */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Footer */
 footer {
   background-color: #333;
