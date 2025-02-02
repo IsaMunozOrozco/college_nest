@@ -1,45 +1,65 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
-  margin:0;
-  padding: 0;
   background-color: #f4f4f4;
 }
 
+/* Header Section */
 header {
+  position: sticky;
+  top: 0;
   background-color: #333;
   color: white;
-  padding: 20px;
+  z-index: 1000; /* Make sure it stays on top of the content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow to separate it */
 }
 
-h1 {
-  margin:0;
+header .logo img {
+  height: 40px; /* Adjust size of the logo */
 }
 
-nav ul {
+nav.navbar ul {
   list-style: none;
-  padding: 0;
+  display: flex;
+  gap: 20px;
 }
 
-nav ul li {
+nav.navbar ul li {
   display: inline;
-  margin-right: 10 px;
 }
 
-nav ul li a {
-  color: white;
+nav.navbar ul li a {
   text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s;
 }
 
+nav.navbar ul li a:hover {
+  color: #f4f4f4; /* Slightly lighter color on hover */
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  margin-top: 80px; /* To prevent content from being hidden behind the sticky header */
+}
+
+/* Footer */
 footer {
   background-color: #333;
   color: white;
-  padding: 10 px;
-  text-alight: center;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
-main {
-  padding: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
 }
