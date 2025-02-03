@@ -102,26 +102,22 @@ html {
 
 /* About Section */
 .about-section {
-  background-color: #fff;
-  padding: 40px 20px;
-  text-align: left;
-  margin: 20px 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow to separate section */
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 20px 0;
 }
 
 .about-section h2 {
-  font-size: 32px;
-  color: #333;
-  text-align: center;
-  margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
 }
 
 .about-section p {
-  font-size: 18px;
-  color: #666;
-  line-height: 1.6;
-  max-width: 800px;
-  margin: 0 auto;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    color: #555;
 }
 
 .container {
