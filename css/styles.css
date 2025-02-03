@@ -61,7 +61,7 @@ html {
 
 /* Hero Section with Background Image */
 .hero-section {
-  background-image: url('images/your-background-image.jpg'); /* Path to your background image */
+  background-image: url('images/owl_nest_main.jpg');
   background-size: cover;
   background-position: center;
   height: 400px; /* Adjust height based on preference */
