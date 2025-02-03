@@ -41,18 +41,18 @@ nav.navbar ul li {
 nav.navbar ul li a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   transition: color 0.3s;
 }
 
 nav.navbar ul li a:hover {
-  color: #f4f4f4; /* Slightly lighter color on hover */
+  color: #f4f4f4;
 }
 
 /* Main Content */
 main {
   padding: 20px;
-  margin-top: 80px; /* To prevent content from being hidden behind the sticky header */
+  margin-top: 60px; /* To prevent content from being hidden behind the sticky header */
 }
 
 html {
