@@ -124,6 +124,12 @@ html {
   margin: 0 auto;
 }
 
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /* Footer */
 footer {
   background-color: #333;
