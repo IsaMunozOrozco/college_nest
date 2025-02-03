@@ -41,7 +41,7 @@ nav.navbar ul li {
 nav.navbar ul li a {
   text-decoration: none;
   color: white;
-  font-size: 16px;
+  font-size: 12px;
   transition: color 0.3s;
 }
 
@@ -52,7 +52,7 @@ nav.navbar ul li a:hover {
 /* Main Content */
 main {
   padding: 20px;
-  margin-top: 60px; /* To prevent content from being hidden behind the sticky header */
+  margin-top: 20px; /* To prevent content from being hidden behind the sticky header */
 }
 
 html {
