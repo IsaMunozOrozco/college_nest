@@ -64,7 +64,7 @@ html {
   background-image: url('../images/owl_nest_main.jpg');
   background-size: cover;
   background-position: center;
-  height: 500px; /* Adjust height based on preference */
+  height: 550px; /* Adjust height based on preference */
   display: flex;
   justify-content: center;
   align-items: center;
