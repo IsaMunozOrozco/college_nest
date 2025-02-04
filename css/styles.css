@@ -147,6 +147,23 @@ blockquote p {
   display: inline;
 }
 
+/* Resources Page Description Section */
+.page-description {
+  background-color: #f4f4f4; 
+  padding: 20px;            
+  margin: 20px 0;           
+}
+
+.page-description .container {
+  max-width: 1200px;         
+  margin: 0 auto;            
+}
+
+.page-description p {
+  font-size: 1.1em;          
+  line-height: 1.6;        
+}
+
 /* Footer */
 footer {
   background-color: #333;
