@@ -147,32 +147,6 @@ blockquote p {
   display: inline;
 }
 
-.categories-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */
-    grid-gap: 20px; /* space between buttons */
-    width: 80%; /* adjust container width */
-    max-width: 1000px;
-}
-
-.category-btn {
-    padding: 20px;
-    font-size: 18px;
-    border: none;
-    border-radius: 15px; /* rounded corners */
-    background-color: #046492; /* blue background */
-    color: blue;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.category-btn:hover {
-    background-color: #eae8e8; /* light grey on hover */
-}
-
-.category-btn:focus {
-    outline: none; /* removes outline on focus */
-}
 
 /* Footer */
 footer {
