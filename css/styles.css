@@ -150,18 +150,18 @@ blockquote p {
 .categories-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 columns */
-    grid-gap: 10px; /* space between buttons */
+    grid-gap: 20px; /* space between buttons */
     width: 80%; /* adjust container width */
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 .category-btn {
-    padding: 15px;
-    font-size: 16px;
+    padding: 20px;
+    font-size: 18px;
     border: none;
-    border-radius: 12px; /* rounded corners */
+    border-radius: 15px; /* rounded corners */
     background-color: #046492; /* blue background */
-    color: white;
+    color: blue;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
