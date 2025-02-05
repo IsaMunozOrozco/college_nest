@@ -153,6 +153,7 @@ blockquote p {
   grid-template-columns: repeat(3, 1fr); /* 3 blocks per row */
   gap: 20px;
   padding: 20px;
+  grid-auto-rows: minmax(200px, auto); /* Ensure each block has a minimum height */
 }
 
 .block {
