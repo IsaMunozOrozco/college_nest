@@ -127,24 +127,28 @@ html {
     margin: 0 auto;
 }
 
-/*Block Quote adapted from CSS-Tricks*/
-blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+/*Block Quote using callout*/
+.callout {
+  background-color: #8f8e90; 
+  border-radius: 10px;
+  padding: 30px; 
+  margin: 20px 0; 
+  font-size: 1.2rem; 
+  color: #333; 
+  width: 100%; 
+  box-sizing: border-box; 
+  text-align: left; 
 }
-blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+
+.callout p {
+  margin: 0;
+  line-height: 1.5;
 }
-blockquote p {
-  display: inline;
+
+@media (max-width: 768px) {
+  .callout {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
 }
 
 /*Block Section*/
