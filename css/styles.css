@@ -191,6 +191,12 @@ blockquote p {
   text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+  .blocks-section {
+    grid-template-columns: 1fr; /* Stack blocks on smaller screens */
+  }
+}
+
 /* Footer */
 footer {
   background-color: #333;
