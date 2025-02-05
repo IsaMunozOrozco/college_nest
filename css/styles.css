@@ -127,7 +127,7 @@ html {
     margin: 0 auto;
 }
 
-/*Block Quote using callout*/
+/*Block Quote using callout - code from ChatGPT*/
 .callout {
   background-color: #ebe8e8; 
   border-radius: 10px;
@@ -147,7 +147,7 @@ html {
 
 @media (max-width: 768px) {
   .callout {
-    padding: 20px; /* Adjust padding for smaller screens */
+    padding: 20px;
   }
 }
 
