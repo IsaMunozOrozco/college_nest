@@ -100,7 +100,7 @@ html {
 .hero-content h2 {
   font-size: 24px;
   font-weight: lighter;
-  font-color:white;
+  color: white;
 }
 
 /* About Section */
@@ -139,7 +139,7 @@ html {
   padding: 30px; 
   margin: 20px 0; 
   font-size: 1.2rem; 
-  color: #333; 
+  color: #333 !important; 
   width: 100%; 
   box-sizing: border-box; 
   text-align: center; 
@@ -148,6 +148,7 @@ html {
 .callout p {
   margin: 0;
   line-height: 1.5;
+  color: #333;
 }
 
 @media (max-width: 768px) {
