@@ -1,4 +1,5 @@
 /* General Reset */
+/*this chunk of code was adapted from w3schools.com*/
 * {
   margin: 0;
   padding: 0;
@@ -16,16 +17,16 @@ header {
   top: 0;
   background-color: #333;
   color: white;
-  z-index: 1000; /* Make sure it stays on top of the content */
+  z-index: 1000; 
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow to separate it */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 header .logo img {
-  height: 40px; /* Adjust size of the logo */
+  height: 40px; 
 }
 
 nav.navbar ul {
@@ -52,7 +53,7 @@ nav.navbar ul li a:hover {
 /* Main Content */
 main {
   padding: 20px;
-  margin-top: 20px; /* To prevent content from being hidden behind the sticky header */
+  margin-top: 20px; 
 }
 
 html {
@@ -60,11 +61,12 @@ html {
 }
 
 /* Hero Section with Background Image */
+/*this chunk of code was generated and adapted from ChatGPT*/
 .hero-section {
   background-image: url('../images/owl_nest_main.jpg');
   background-size: cover;
   background-position: center;
-  height: 550px; /* Adjust height based on preference */
+  height: 550px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,7 +81,7 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4); /* Slight grey overlay */
+  background: rgba(0, 0, 0, 0.4); 
   z-index: 1;
 }
 
@@ -101,6 +103,7 @@ html {
 }
 
 /* About Section */
+/*this chunk of code was generated and adapted from ChatGPT*/
 .about-section {
     background-color: #fff;
     padding: 40px 20px;
@@ -127,7 +130,8 @@ html {
     margin: 0 auto;
 }
 
-/*Block Quote using callout - code from ChatGPT*/
+/*Block Quote using callout*/
+/*this chunk of code was generated and adapted from ChatGPT*/
 .callout {
   background-color: #ebe8e8; 
   border-radius: 10px;
@@ -152,6 +156,7 @@ html {
 }
 
 /*Block Section*/
+/*this chunk of code was generated and adapted from ChatGPT*/
 .blocks-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 blocks per row */
@@ -202,7 +207,28 @@ html {
   }
 }
 
+/*Attribution Footer*/
+/*this chunk of code was generated and adapted from ChatGPT*/
+.second-footer {
+  background-color: #f8f8f8; 
+  padding: 15px 0; 
+  text-align: left; 
+  font-size: 14px; 
+  color: #666;
+  border-top: 1px solid #ddd; 
+}
+
+.second-footer a {
+  color: #007BFF; 
+  text-decoration: none; 
+}
+
+.second-footer a:hover {
+  text-decoration: underline; 
+}
+
 /* Footer */
+/*code adapted from w3schools.com*/
 footer {
   background-color: #333;
   color: white;
@@ -210,4 +236,4 @@ footer {
   font-size: 12px;
   text-align: center;
   margin-top: 50px;
-}
+} 
