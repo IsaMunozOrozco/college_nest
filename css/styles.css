@@ -286,9 +286,10 @@ footer {
 } 
 
 footer a {
-    color: white !important;
+    color: white;
+    text-decoration: none;
 }
 
 footer p {
-  color: white !important;
+  color: white;
 }
