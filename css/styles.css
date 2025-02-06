@@ -148,6 +148,7 @@ html {
 .callout p {
   margin: 0;
   line-height: 1.5;
+  font-size: 10px;
   color: #333;
 }
 
@@ -261,7 +262,7 @@ html {
 /*this chunk of code was generated and adapted from ChatGPT*/
 .second-footer {
   background-color: #fff; 
-  padding: 20px 0; 
+  padding: 20px; 
   text-align: center; 
   font-size: 10px; 
   color: #333 !important; 
@@ -277,7 +278,7 @@ html {
 /*code adapted from w3schools.com*/
 footer {
   background-color: #333;
-  color: white;
+  color: white !important;
   padding: 10px;
   font-size: 12px;
   text-align: center;
@@ -285,5 +286,5 @@ footer {
 } 
 
 footer a {
-    color: white;
+    color: white !important;
 }
