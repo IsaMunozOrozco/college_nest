@@ -223,10 +223,6 @@ html {
   text-decoration: none; 
 }
 
-.second-footer a:hover {
-  text-decoration: underline; 
-}
-
 /* Footer */
 /*code adapted from w3schools.com*/
 footer {
