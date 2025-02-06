@@ -100,6 +100,7 @@ html {
 .hero-content h2 {
   font-size: 24px;
   font-weight: lighter;
+  font-color:white;
 }
 
 /* About Section */
@@ -207,23 +208,8 @@ html {
   }
 }
 
-/*Attribution Footer*/
-/*this chunk of code was generated and adapted from ChatGPT*/
-.second-footer {
-  background-color: #fff; 
-  padding: 10px 0; 
-  text-align: center; 
-  font-size: 10px; 
-  color: #333; 
-}
-
-.second-footer a {
-  color: #333; 
-  text-decoration: none; 
-}
-
 /*Alphabetical Navigation*/
-.container {
+.containerA {
     max-width: 1000px;
     margin: 50px auto;
     padding: 10px;
@@ -269,6 +255,22 @@ p {
 html {
     scroll-behavior: smooth;
 }
+
+/*Attribution Footer*/
+/*this chunk of code was generated and adapted from ChatGPT*/
+.second-footer {
+  background-color: #fff; 
+  padding: 20px 0; 
+  text-align: center; 
+  font-size: 10px; 
+  color: #333; 
+}
+
+.second-footer a {
+  color: #333; 
+  text-decoration: none; 
+}
+
 
 /* Footer */
 /*code adapted from w3schools.com*/
