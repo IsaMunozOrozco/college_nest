@@ -166,7 +166,7 @@ html {
 }
 
 .block {
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -210,16 +210,15 @@ html {
 /*Attribution Footer*/
 /*this chunk of code was generated and adapted from ChatGPT*/
 .second-footer {
-  background-color: #f8f8f8; 
-  padding: 20px 0; 
+  background-color: #fff; 
+  padding: 10px 0; 
   text-align: center; 
   font-size: 10px; 
-  color: #666;
-  border-top: 1px solid #ddd; 
+  color: #333; 
 }
 
 .second-footer a {
-  color: #666; 
+  color: #333; 
   text-decoration: none; 
 }
 
