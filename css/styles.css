@@ -222,6 +222,54 @@ html {
   text-decoration: none; 
 }
 
+/*Alphabetical Navigation*/
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.alphabet-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.alphabet-nav a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #ddd;
+    transition: background-color 0.3s;
+}
+
+.alphabet-nav a:hover {
+    background-color: #bbb;
+}
+
+.letter-section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Smooth scroll for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Footer */
 /*code adapted from w3schools.com*/
 footer {
