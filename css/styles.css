@@ -263,11 +263,11 @@ html {
   padding: 20px 0; 
   text-align: center; 
   font-size: 10px; 
-  color: #333; 
+  color: #333 !important; 
 }
 
 .second-footer a {
-  color: #333; 
+  color: #333 !important; 
   text-decoration: none; 
 }
 
