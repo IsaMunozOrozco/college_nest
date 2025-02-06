@@ -211,15 +211,15 @@ html {
 /*this chunk of code was generated and adapted from ChatGPT*/
 .second-footer {
   background-color: #f8f8f8; 
-  padding: 15px 0; 
-  text-align: left; 
-  font-size: 14px; 
+  padding: 20px 0; 
+  text-align: center; 
+  font-size: 10px; 
   color: #666;
   border-top: 1px solid #ddd; 
 }
 
 .second-footer a {
-  color: #007BFF; 
+  color: #666; 
   text-decoration: none; 
 }
 
