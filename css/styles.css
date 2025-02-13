@@ -214,7 +214,8 @@ html {
 /*used for 'Research' page*/
 .block-container {
             width: 100%;
-            max-width: 600px; /* Adjust the max-width to your desired container size */
+            max-width: 768px; /* Adjust the max-width to your desired container size */
+            padding: 20px;
             margin: 0 auto;
         }
 
