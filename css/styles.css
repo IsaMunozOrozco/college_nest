@@ -1,4 +1,5 @@
-/* General Reset */
+/*College Nest CSS Code*/
+/* GENERAL RESET */
 /*this chunk of code was adapted from w3schools.com*/
 * {
   margin: 0;
@@ -11,7 +12,7 @@ body {
   background-color: #f4f4f4;
 }
 
-/* Header Section */
+/* HEADER SECTION */
 header {
   position: sticky;
   top: 0;
@@ -103,7 +104,7 @@ html {
   color: white !important;
 }
 
-/* About Section */
+/* ABOUT SECTION */
 /*this chunk of code was generated and adapted from ChatGPT*/
 .about-section {
     background-color: #fff;
@@ -131,7 +132,7 @@ html {
     margin: 0 auto;
 }
 
-/*Block Quote using callout*/
+/*BLOCK QUOTE USING CALL-OUT*/
 /*this chunk of code was generated and adapted from ChatGPT*/
 .callout {
   background-color: #ebe8e8; 
@@ -158,7 +159,7 @@ html {
   }
 }
 
-/*Block Section*/
+/*BLOCK SECTION*/
 /*this chunk of code was generated and adapted from ChatGPT*/
 .blocks-section {
   display: grid;
@@ -210,20 +211,22 @@ html {
   }
 }
 
-/*Block Container*/
+/*BLOCK CONTAINER*/
 /*used for 'Research' page*/
 .block-container {
-            width: 100%;
-            gap: 20px;
-            max-width: 768px; /* Adjust the max-width to your desired container size */
-            padding: 20px;
-            margin: 0 auto;
-        }
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    gap: 20px;
+    max-width: 768px; /* Adjust the max-width to your desired container size */
+    padding: 20px;
+    margin: 0 auto;
+}
 
-        /* Hide the checkboxes */
-        input[type="checkbox"] {
-            display: none;
-        }
+/* Hide the checkboxes */
+input[type="checkbox"] {
+    display: none;
+}
 
 /* Style the clickable blocks */
 .block {
@@ -251,8 +254,14 @@ input[type="checkbox"]:checked + .block + .content {
     display: block;
 }
 
+@media (max-width: 768px) {
+  .blocks-container {
+    flex-direction: column;
+  }
+}
 
-/*Alphabetical Navigation*/
+
+/*ALPHABET NAVIGATION*/
 .containerA {
     max-width: 1000px;
     margin: 50px auto;
@@ -300,7 +309,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/*Attribution Footer*/
+/*ATTRIBUTION FOOTER*/
 /*this chunk of code was generated and adapted from ChatGPT*/
 .second-footer {
   background-color: #fff; 
@@ -316,7 +325,7 @@ html {
 }
 
 
-/* Footer */
+/* FOOTER */
 /*code adapted from w3schools.com*/
 footer {
   background-color: #333;
