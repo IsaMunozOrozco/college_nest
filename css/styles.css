@@ -226,50 +226,53 @@ html {
   }
 }
 
+
 /*ACCORDION MENU*/
-/*adapted from W3*/
-.accordion-container {
-    width: 100%;
-    max-width: 600px; 
-    margin: 0 auto; 
-}
-/* Style for the summary (accordion button) */
-summary {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    margin: 5px 0;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+#accordion { 
+  margin: 100px auto; 
+  width: 600px;
 }
 
-/* Hover effect for the summary button */
-summary:hover {
-    background-color: #ccc;
+#accordion li{
+  list-style: none;
+  width: 100%;
+  margin-bottom: 10px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
 }
 
-/* Style for the content (panel) inside details */
-details {
-    margin-bottom: 10px;
+#accordion li label{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  font-width: 500;
+  cursor: pointer;
+  color: #333;
 }
 
-.panel {
-    padding: 0 18px;
-    background-color: white;
-    display: block;
-    border-bottom: 1px solid #ddd;
+#accordion li label span{
+  transform: rotate(90deg);
+  font-size: 18px;
+  color:#046492
 }
 
-/* Optional: smooth transition for opening and closing */
-details[open] .panel {
-    padding: 18px;
-    transition: all 0.3s ease-in-out;
+#accordion label + input[type="radio"]{
+  display:none;
+}
+
+#accordion .content{
+  padding: 0 10px;
+  line-height: 26px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height: 0.5s;
+}
+
+#accordion label + input[type="radio"]:checked + .content{
+  max-height: 400px;
 }
 
 /* BLOCK CONTAINER FOR SUBPAGES */
