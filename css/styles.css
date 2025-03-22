@@ -277,13 +277,11 @@ input[type="checkbox"]:checked + .block + .content {
 
 /* SIDE MENU */
 .side-menu {
-    width: 200px;
+    width: 220px; 
     background-color: #333;
     color: white;
-    position: fixed;
-    height: 100%;
-    top: 0;
     padding-top: 20px;
+    margin-right: 20px; 
 }
 
 .side-menu ul {
@@ -305,10 +303,11 @@ input[type="checkbox"]:checked + .block + .content {
     background-color: #555;
 }
 
-/* MAIN SECTION FOR SIDE NAVIGATION */
+/* MAIN CONTENT SECTION FOR SIDE MENU */
 .main-content {
-    margin-left: 220px;
+    flex-grow: 1; 
     padding: 20px;
+    border: 1px solid #ddd;
 }
 
 .content-section {
@@ -326,15 +325,6 @@ input[type="checkbox"]:checked + .block + .content {
 
 .content-section p {
     margin-bottom: 20px;
-}
-
-/*ALPHABET NAVIGATION*/
-.containerA {
-    max-width: 1000px;
-    margin: 50px auto;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 8px;
 }
 
 .alphabet-nav {
