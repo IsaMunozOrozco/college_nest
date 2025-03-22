@@ -228,51 +228,65 @@ html {
 
 
 /*ACCORDION MENU*/
-#accordion { 
-  margin: 100px auto; 
+/* Accordion Menu */
+#accordion {
+  margin: 20px auto;
   width: 600px;
+  font-family: Arial, sans-serif;
 }
 
-#accordion li{
+#accordion li {
   list-style: none;
   width: 100%;
   margin-bottom: 10px;
   background: #fff;
   padding: 10px;
   border-radius: 4px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#accordion li label{
+#accordion li label {
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 16px;
-  font-width: 500;
+  font-size: 18px;
+  font-weight: 500;
   cursor: pointer;
   color: #333;
+  background-color: #f0f0f0;
+  border-radius: 4px;
 }
 
-#accordion li label span{
+#accordion li label span {
   transform: rotate(90deg);
   font-size: 18px;
-  color:#046492
+  color: #046492;
+  transition: transform 0.3s ease;
 }
 
-#accordion label + input[type="radio"]{
-  display:none;
+#accordion input[type="radio"] {
+  display: none;
 }
 
-#accordion .content{
+#accordion .content {
   padding: 0 10px;
   line-height: 26px;
   max-height: 0;
   overflow: hidden;
-  transition: max-height: 0.5s;
+  transition: max-height 0.5s ease-in-out;
 }
 
-#accordion label + input[type="radio"]:checked + .content{
+#accordion input[type="radio"]:checked + .content {
   max-height: 400px;
+}
+
+#accordion input[type="radio"]:checked + .content {
+  max-height: 400px;
+}
+
+#accordion input[type="radio"]:checked + .content + label span {
+  transform: rotate(270deg);
 }
 
 /* BLOCK CONTAINER FOR SUBPAGES */
