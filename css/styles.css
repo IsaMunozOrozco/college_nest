@@ -275,59 +275,6 @@ input[type="checkbox"]:checked + .block + .content {
   }
 }
 
-/* SIDE MENU */
-.side-menu {
-    width: 200px;
-    background-color: #333;
-    color: white;
-    padding-top: 20px;
-    position: fixed;
-    height: 100vh; /* Full height */
-}
-
-.side-menu ul {
-    list-style: none;
-    padding: 0;
-}
-
-.side-menu ul li {
-    padding: 10px;
-}
-
-.side-menu ul li a {
-    color: white;
-    text-decoration: none;
-    display: block;
-}
-
-.side-menu ul li a:hover {
-    background-color: #555;
-}
-
-/* Main Content for Side Menu*/
-.main-content {
-    margin-left: 220px; /* Makes space for the side menu */
-    padding: 20px;
-    background-color: white;
-}
-
-.content-section {
-    display: none; /* Hide all sections by default */
-}
-
-.content-section:target {
-    display: block; /* Show the section when its corresponding link is targeted */
-}
-
-.content-section h1 {
-    color: #333;
-}
-
-.content-section p {
-    font-size: 16px;
-    color: #555;
-}
-
 /*Alphabetical Navigator*/
 .alphabet-nav {
     display: flex;
