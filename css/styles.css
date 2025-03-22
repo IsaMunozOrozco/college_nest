@@ -226,6 +226,44 @@ html {
   }
 }
 
+/* BLOCK CONTAINER FOR SUBPAGES */
+.block-container {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Title style for the block */
+.block {
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 0;
+    text-align: left;
+}
+
+/* Hide content initially */
+.content {
+    display: none;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+/* When the checkbox is checked, show the content */
+.toggle:checked + .block + .content {
+    display: block;
+}
+
+/* Add transition to smooth the expansion */
+.content {
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+
 /* Container for the Alphabetical Navigator */
 .containerA {
     width: 100%;
