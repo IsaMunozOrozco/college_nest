@@ -137,6 +137,7 @@ html {
     background-color: #046492;
     padding: 40px 20px;
     margin: 20px 0;
+    border-radius: 15px;
 }
 
 .quote-section p {
