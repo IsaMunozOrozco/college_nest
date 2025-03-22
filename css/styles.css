@@ -174,7 +174,6 @@ html {
 }
 
 
-
 /*BLOCK SECTION*/
 /*this chunk of code was generated and adapted from ChatGPT*/
 .blocks-section {
@@ -275,6 +274,60 @@ input[type="checkbox"]:checked + .block + .content {
     flex-direction: column;
   }
 }
+
+/*SIDE NAVIGATION*/
+.side-menu {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding-top: 20px;
+    position: fixed; 
+    height: 100vh; 
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    padding: 15px;
+}
+
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.side-menu ul li a:hover {
+    background-color: #555;
+}
+
+/* MAIN CONTENT AREA FOR SIDE NAVIGATION*/
+.main-content {
+    margin-left: 220px; 
+    padding: 20px;
+    background-color: #fff
+    font-color:#333;
+    flex-grow: 1;
+}
+
+.content-section {
+    display: none; 
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
 
 
 /*ALPHABET NAVIGATION*/
