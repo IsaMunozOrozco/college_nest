@@ -277,11 +277,18 @@ html {
 }
 
 #accordion input[type="radio"]:checked + .content {
+  display: block;
   max-height: 2000px; 
 }
 
 #accordion input[type="radio"]:checked + .content + label span {
   transform: rotate(270deg);
+}
+
+/* hover effect on the label */
+#accordion label:hover {
+    background-color: #e6e6e6;
+    color: #007BFF;
 }
 
 /* BLOCK CONTAINER FOR SUBPAGES */
