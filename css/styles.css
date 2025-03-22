@@ -227,13 +227,14 @@ html {
 }
 
 
-/*Alphabetical Navigator*/
+/* Alphabetical Navigator */
 .alphabet-nav {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 20px;
     text-align: center;
+    justify-content: center; 
 }
 
 .alphabet-nav a {
@@ -246,7 +247,7 @@ html {
 }
 
 .alphabet-nav a:hover {
-    background-color: #bbb;
+    background-color: #888; /* Adjust hover background-color to make it visually distinct */
 }
 
 .letter-section {
@@ -260,6 +261,11 @@ h2 {
 p {
     color: #333;
     font-size: 14px;
+}
+
+/* Smooth scroll for anchor links */
+html {
+    scroll-behavior: smooth;
 }
 
 /* Smooth scroll for anchor links */
