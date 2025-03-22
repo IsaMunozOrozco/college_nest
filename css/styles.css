@@ -132,32 +132,33 @@ html {
     margin: 0 auto;
 }
 
-/*BLOCK QUOTE USING CALL-OUT*/
-/*this chunk of code was generated and adapted from ChatGPT*/
-.callout {
-  background-color: #ebe8e8; 
-  border-radius: 10px;
-  padding: 30px; 
-  margin: 20px 0; 
-  font-size: 12px; 
-  color: #333 !important; 
-  width: 100%; 
-  box-sizing: border-box; 
-  text-align: center; 
+/* QUOTE SECTION */
+.quote-section {
+    background-color: #ebe8e8;
+    padding: 40px 20px;
+    margin: 20px 0;
 }
 
-.callout p {
-  margin: 0;
-  line-height: 1.5;
-  font-size: 12px;
-  color: #333;
+.quote-section h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
-  .callout {
-    padding: 20px;
-  }
+.quote-section p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    color: #333;
 }
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 
 /*BLOCK SECTION*/
 /*this chunk of code was generated and adapted from ChatGPT*/
