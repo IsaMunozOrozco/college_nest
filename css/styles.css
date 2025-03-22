@@ -228,30 +228,43 @@ html {
 
 /*ACCORDION MENU*/
 /*adapted from W3*/
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
+/* Style for the summary (accordion button) */
+summary {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: #ccc;
+/* Hover effect for the summary button */
+summary:hover {
+    background-color: #ccc;
 }
 
-/* Style the accordion panel. Note: hidden by default */
+/* Style for the content (panel) inside details */
+details {
+    margin-bottom: 10px;
+}
+
 .panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
+    padding: 0 18px;
+    background-color: white;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Optional: smooth transition for opening and closing */
+details[open] .panel {
+    padding: 18px;
+    transition: all 0.3s ease-in-out;
 }
 
 /* BLOCK CONTAINER FOR SUBPAGES */
