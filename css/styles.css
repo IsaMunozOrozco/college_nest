@@ -228,6 +228,11 @@ html {
 
 /*ACCORDION MENU*/
 /*adapted from W3*/
+.accordion-container {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto; 
+}
 /* Style for the summary (accordion button) */
 summary {
     background-color: #eee;
