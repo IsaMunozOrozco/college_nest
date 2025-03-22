@@ -160,6 +160,26 @@ html {
     margin: 0 auto;
 }
 
+/* IMAGE SECTION */
+.image-section {
+    width: 80%;
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+.image {
+    width: 100%; 
+    height: auto; 
+}
+
+.caption {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px; 
+    line-height: 1.6; 
+}
+
+
 
 /*BLOCK SECTION*/
 /*this chunk of code was generated and adapted from ChatGPT*/
