@@ -275,6 +275,63 @@ input[type="checkbox"]:checked + .block + .content {
   }
 }
 
+/* Side Menu within the content */
+.sub-menu {
+    margin-bottom: 20px;
+}
+
+.sub-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sub-menu ul li {
+    margin-bottom: 10px;
+}
+
+.sub-menu ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sub-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section styles */
+h2, h3 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Section visibility (optional, based on needs) */
+div[id^="phd"], div[id^="responsibilities"], div[id^="guide"] {
+    margin-top: 20px;
+}
+
+
 /*Alphabetical Navigator*/
 .alphabet-nav {
     display: flex;
