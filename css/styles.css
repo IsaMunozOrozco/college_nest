@@ -134,7 +134,7 @@ html {
 
 /* QUOTE SECTION */
 .quote-section {
-    background-color: #ebe8e8;
+    background-color: #fff;
     padding: 40px 20px;
     margin: 20px 0;
 }
@@ -151,6 +151,7 @@ html {
     margin-bottom: 15px;
     line-height: 1.5;
     color: #333;
+    text-align: center;
 }
 
 .container {
