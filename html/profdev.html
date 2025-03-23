@@ -40,83 +40,73 @@
             <p class="caption"> Professional development is the ongoing process of acquiring new skills and knowledge to enhance your performance and advance in your career. This can look like taking courses, attending workshops or conferences, earning certificates, and getting support from mentors or networking with others. It's a process that helps with both personal and professional growth.</p>
             <p class="caption"> Most universities, institutions, organizations, associations, conferences, and maybe even your site of work have professional development opportunities, so it's always a great way to start there. Nonetheless, below you will find resources for the different components of professional development.</p>
         </div>
-            
-            <!-- Prof Dev Resource Section-->
-            <div class="block-container">
-            <!--Continuing Education-->
-            <input type="checkbox" id="block1">
-            <label for="block1" class="block">
-                Continuing Education
-            </label>
-            <ul class="content">
-                <br>
-                <li><a href="https://www.coursera.org/">Coursera</a></li><br>
-                <li><a href="https://grow.google/intl/uk/courses-and-tools/">Google Digital Garage</a></li><br>
-                <li><a href="https://www.linkedin.com/learning/">Linkedin Learning</a></li><br>
-                <li><a href="https://www.oxfordhomestudy.com/free-online-courses-with-certificates">Oxford Home Study | Free Online Courses</a></li><br>
-                <li><a href="https://online.stanford.edu/content-gallery">Stanford Online | Free Content Library</a></li><br>
-            </ul>
-            <!--Networking-->
-            <input type="checkbox" id="block2">
-            <label for="block2" class="block">
-                Networking
-            </label>
-            <ul class="content">
-                <br>
-                <h3>Networking Guides</h3><br>
-                <li><a href="https://hwpi.harvard.edu/files/ocs/files/hes-building-your-network-publication.pdf">Build Your Network | Harvard University</a></li><br>
-                <li><a href="https://careerdevelopment.princeton.edu/guides/networking/five-step-guide-networking">5-step Guide to Networking | Princeton</a></li><br>
-                <h3>Networking Online Platforms</h3><br>
-                <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
-                <p>LinkedIn is a great opportunity to connect with others in your field and apply to jobs, internships, etc.</p>
-                <p><a href="https://content.sph.harvard.edu/wwwhsph/sites/36/2017/08/Published-Linkedin-Guide-SW-5-2-17.pdf">Linkedin for Networking, Career Building & Job Search | Harvard T.H. Chan</a></p><br>
-            </ul>
-            <!--Mentoring-->
-            <input type="checkbox" id="block3">
-            <label for="block3" class="block">
-                Mentoring
-            </label>
-            <ul class="content">
-                <br><li><a href="https://nationalmentoringresourcecenter.org/">National Mentoring Resource Center</a></li><br>
-                <h3>Mentoring Toolkits & Guides</h3><br>
-                <li><a href="https://hr.uw.edu/wp-content/uploads/sites/10/2017/04/Mentoring-Toolkit.pdf"> Mentoring Toolkit | University of Washigton</a></li><br>
-                <li><a href="https://www.nature.com/articles/447791a">Nature's guide for mentors</a></li><br>
-                <li><a href="https://case.edu/provostscholars/sites/default/files/2019-09/OSU%20Mentoring-mentor-toolkit-%20final-508.pdf">Mentor Toolkit | The Ohio State University</a></li><br>
-            </ul>
-            <!--Time Management-->
-            <input type="checkbox" id="block4">
-            <label for="block4" class="block">
-                Time Management
-            </label>
-            <ul class="content">
-                <br><li><a href="https://www.usemotion.com/blog/time-management-techniques">13 Time Management Techniques to Boost Your Productivity | Motion Blog</a></li><br>
-            </ul>
-            <!--Leadership-->
-            <input type="checkbox" id="block5">
-            <label for="block5" class="block">
-                Leadership
-            </label>
-            <ul class="content">
-                <br><li>resources coming soon</li><br>
-            </ul>
-            <!--Communication & Interpersonal Skills-->
-            <input type="checkbox" id="block6">
-            <label for="block6" class="block">
-                Communication & Interpersonal Skills
-            </label>
-            <ul class="content">
-                <br><li>resources coming soon</li><br>
-            </ul>
 
-            <!--Health and Wellness-->
-            <input type="checkbox" id="block7">
-            <label for="block7" class="block">
-                Health & Well-being
-            </label>
-            <ul class="content">
-                <br><p>You are a WHOLE person, so it is important that you take care of yourself. You are more than just what you do for work. We are all multi-dimensional. Our well-being matters and whether we like it or not, it impacts our performance (whether directly or indirectly), so make sure you learn to take care of yourself in all areas (e.g., physically, mentally, spiritually, socially, etc.). </p>
-                <br><li><a href="https://wellbeing.umich.edu/tools-resources/model-of-well-being/">Example of Model of Well-being | University of Michigan</a></li><br>
-            </ul>
+
+          <!--Accordion Menu-->
+          <ul id="accordion">
+            <li>
+                <label for="first">Continuing Education<span>&#x3e;</span></label>
+                <input type="radio" name="accordion" id="first" checked>
+                <div class="content">
+                    <br><p>Description here</p>
+                    <p><a href="https://www.coursera.org/">Coursera</a></p>
+                    <p><a href="https://grow.google/intl/uk/courses-and-tools/">Google Digital Garage</a></p>
+                    <p><a href="https://www.linkedin.com/learning/">Linkedin Learning</a></p>
+                    <p><a href="https://www.oxfordhomestudy.com/free-online-courses-with-certificates">Oxford Home Study | Free Online Courses</a></p>
+                    <p><a href="https://online.stanford.edu/content-gallery">Stanford Online | Free Content Library</a></p>
+                </div>
+            </li>
+            <li>
+                <label for="second">Networking<span>&#x3e;</span></label>
+                <input type="radio" name="accordion" id="second" checked>
+                <div class="content">
+                    <br><p>Description here</p>
+                    <h3>Networking Guides</h3>
+                    <p><a href="https://hwpi.harvard.edu/files/ocs/files/hes-building-your-network-publication.pdf">Build Your Network | Harvard University</a></p>
+                    <p><a href="https://careerdevelopment.princeton.edu/guides/networking/five-step-guide-networking">5-step Guide to Networking | Princeton</a></p>
+                    <h3>Online Networking Platforms</h3>
+                    <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+                    <p>LinkedIn is a great opportunity to connect with others in your field and apply to jobs, internships, etc.</p>
+                    <p><a href="https://content.sph.harvard.edu/wwwhsph/sites/36/2017/08/Published-Linkedin-Guide-SW-5-2-17.pdf">Linkedin for Networking, Career Building & Job Search | Harvard T.H. Chan</a></p>
+                </div>
+            </li>
+            <li>
+                <label for="third">Mentoring<span>&#x3e;</span></label>
+                <input type="radio" name="accordion" id="third" checked>
+                <div class="content">
+                    <br><p>Description here</p>
+                    <p><a href="https://nationalmentoringresourcecenter.org/">National Mentoring Resource Center</a></p>
+                    <h3>Mentoring Toolkits & Guides</h3>
+                    <p><a href="https://hr.uw.edu/wp-content/uploads/sites/10/2017/04/Mentoring-Toolkit.pdf"> Mentoring Toolkit | University of Washigton</a></p>
+                    <p><a href="https://www.nature.com/articles/447791a">Nature's guide for mentors</a></p>
+                    <p><a href="https://case.edu/provostscholars/sites/default/files/2019-09/OSU%20Mentoring-mentor-toolkit-%20final-508.pdf">Mentor Toolkit | The Ohio State University</a></p>
+                </div>
+            </li>
+            <li>
+                <label for="fourth">Time Management<span>&#x3e;</span></label>
+                <input type="radio" name="accordion" id="fourth" checked>
+                <div class="content">
+                    <br><p>Description here</p>
+                    <p><a href="https://www.usemotion.com/blog/time-management-techniques">13 Time Management Techniques to Boost Your Productivity | Motion Blog</a></p>
+                </div>
+            </li>
+            <li>
+                <label for="fifth">Leadership<span>&#x3e;</span></label>
+                <input type="radio" name="accordion" id="fifth" checked>
+                <div class="content">
+                    <br><p>Description here</p>
+                    <p>Resources coming soon...</p>
+                </div>
+            </li>
+            <li>
+                <label for="sixth">Communication & Interpersonal Skills<span>&#x3e;</span></label>
+                <input type="radio" name="accordion" id="sixth" checked>
+                <div class="content">
+                    <br><p>Description here</p>
+                    <p>Resources coming soon...</p>
+                </div>
+            </li>
+          </ul> 
         </div>
       </section>
 </main>
