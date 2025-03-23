@@ -230,13 +230,14 @@ html {
 /*ACCORDION MENU*/
 #accordion {
   margin: 20px auto;
-  width: 600px;
+  width: 100%; 
+  max-width: 600px;  
   font-family: Arial, sans-serif;
 }
 
 #accordion li {
   list-style: none;
-  width: 100%;
+  width: 100%;  
   margin-bottom: 10px;
   background: #fff;
   padding: 10px;
@@ -285,12 +286,51 @@ html {
   transform: rotate(270deg);
 }
 
-/* hover effect on the label */
+/* Hover effect on the label */
 #accordion label:hover {
-    background-color: #e6e6e6;
-    color: #007BFF;
+  background-color: #e6e6e6;
+  color: #007BFF;
 }
 
+/* Responsive Design: Media Queries for Mobile and Small Screens */
+@media (max-width: 768px) {
+  #accordion {
+    padding: 0 15px; 
+    margin: 10px;  
+  }
+
+  #accordion li {
+    padding: 8px;  
+  }
+
+  #accordion li label {
+    font-size: 16px; 
+    padding: 8px;  
+  }
+
+  #accordion li label span {
+    font-size: 16px; 
+  }
+
+  #accordion .content {
+    padding: 0 5px; 
+  }
+}
+
+/* Additional mobile-specific styles for smaller devices */
+@media (max-width: 480px) {
+  #accordion li {
+    padding: 6px; 
+  }
+
+  #accordion li label {
+    font-size: 14px;  
+  }
+
+  #accordion .content {
+    padding: 0 4px;  
+  }
+}
 /* BLOCK CONTAINER FOR SUBPAGES */
 .block-container {
     margin-bottom: 20px;
