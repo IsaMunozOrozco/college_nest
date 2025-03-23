@@ -39,88 +39,80 @@
           <p>This page has general tools, not specific to any given topic. For more topic-specific tools, check out the 'Resource' page.</p>
           <p>Don't overcomplicate it - find a simple system that works for you and stick with it.</p>
           <p>You will find study tools by category below:</p><br>
-          <!--Study Tools by sub-topic-->
-          <div class="block-container">
-            <!--Note-taking-->
-            <input type="checkbox" id="block1">
-            <label for="block1" class="block">
-                Note-Taking
-            </label>
-            <ul class="content">
-                <br><li><a href="https://learningcenter.unc.edu/tips-and-tools/effective-note-taking-in-class/">Effective Note-Taking in Class | UNC The Learning Center</a></li>
-                <br><h3>Note-Taking Apps & Softwares</h3><br>
-                <li>Google Drive</li><br>
-                <li>Good old paper and pen</li><br>
-                <li>Dropbox</li>
-                <li><a href="https://evernote.com/why-evernote">Evernote</a></li><br>
-                <li><a href="https://joplinapp.org/">Joplin</a></li><br>
-                <li><a href="https://www.onenote.com/">Microsoft OneNote</a></li><br>
-                <li><a href="https://www.notion.com">Notion</a></li><br>
-                <li><a href="https://obsidian.md">Obsidian</a></li><br>
-                
-            </ul>
-             <!--Learning Resources-->
-            <input type="checkbox" id="block2">
-            <label for="block2" class="block">
-                Learning Resources
-            </label>
-            <ul class="content">
-                <br><h3>Learning Resources</h3><br>
-                <li><a href="https://learningcenter.unc.edu/tips-and-tools/">The Learning Center | UNC Chapel Hill</a></li><br>
-                <li><a href="https://coursera.org">Coursera</a></li><br>
-                <li><a href="https://khanacademy.org">Khan Academy</a></li><br>
-                <h3>Flashcards</h3>
-                <br><li><a href="https://apps.ankiweb.net/">Anki Cards (web version)</a></li><br>
-                <li><a href="https://quizlet.com">Quizlet</a></li><br>
-                <h3>Mind Mapping</h3><br>
-                <li><a href="https://www.mindmeister.com/">Mindmeister</a></li><br>
-                <li><a href="https://bubbl.us/">bubble.us</a></li><br>
-                <li><a href="https://tobloef.com/text2mindmap/">text2mindmap</a></li><br>
-                <li><a href="https://venngage.com/features/mind-map-maker">Venngage</a></li><br>
-                <h3>Study Strategies</h3><br>
-                <li><a href="https://www.youtube.com/watch?v=5XVc8a0mrLo">7 Evidence-Based Study Strategies | Med School Insider YouTube Video</a></li><br>
-                <li>Active Recall</li><br>
-                <li>Feynman Technique</li><br>
-                <li>Spaced Repitition</li><br>
-                <li>Project based learning - programming</li><br>
-            </ul>
-            <!--Productivity & Organization-->
-            <input type="checkbox" id="block3">
-            <label for="block3" class="block">
-                Productivity & Organization
-            </label>
-            <ul class="content">
-                <br><h3>Scheduling & Time Management</h3><br>
-                <br><li>Any calendar</li><br>
-                <li><a href="https://pomofocus.io/">Pomodoro Timer</a></li><br>
-                <h3>Project & Task Management</h3><br>
-                <li><a href="https://myhomeworkapp.com/">myHomework Student Planner App</a></li><br>
-                <li><a href="https://mystudylife.com/">MyStudyLife Student Planner</a></li><br>
-                <li>other resources coming soon</li>
-                
-            </ul>
-            <!--Writing & Grammar-->
-            <input type="checkbox" id="block4">
-            <label for="block4" class="block">
-                Writing & Grammar
-            </label>
-            <ul class="content">
-                <br><h3>Grammar Tools</h3><br>
-                <li><a href="https://www.grammarly.com">Grammarly</a></li><br>
-                <h3>Writing Tools</h3><br>
-                <li><a href="https://www.dictionary.com/">Dictionary</a></li><br>
-                <li><a href="https://www.phrasebank.manchester.ac.uk/">Manchester Phrasebook</a></li><br>
-                <li><a href="https://www.powerthesaurus.org/">Power Thesaurus</a></li><br>
-                <li><a href="https://www.thesaurus.com/">Thesaurus</a></li><br>
-                <li><a href="https://www.wordhippo.com/">Word Hippo</a></li><br>
-                <h3>Editing Tools</h3><br>
-                <li><a href="https://hemingwayapp.com">Hemingway Editor</a></li><br>
-                <li><a href="https://www.overleaf.com/">Overleaf</a></li><br>
-                <li><a href="https://owl.purdue.edu/owl/">Purdue Online Writing Lab</a></li><br>
-                <h3>Plagarism Checker</h3><br>
-                <li><a href="https://plagiarismdetector.net/">Plagarism Checker</a></li><br>
-            </ul>
-            
+
+          <!--Accordion Menu-->
+          <ul id="accordion">
+            <li>
+                <label for="first">Note-taking<span>&#x3e;</span></label>
+                <input type="radio" name="accordion" id="first" checked>
+                <div class="content">
+                    <br><p>Description here</p>
+                    <a href="https://learningcenter.unc.edu/tips-and-tools/effective-note-taking-in-class/">Effective Note-Taking in Class | UNC The Learning Center</a>
+                    <h3>Note-taking Apps & Softwares</h3>
+                    <p>Dropbox</p>
+                    <p>Google Drive</p>
+                    <p><a href="https://evernote.com/why-evernote">Evernote</a></p>
+                    <p><a href="https://joplinapp.org/">Joplin</a></p>
+                    <p><a href="https://www.onenote.com/">Microsoft OneNote</a></p>
+                    <p><a href="https://www.notion.com">Notion</a></p>
+                    <p><a href="https://obsidian.md">Obsidian</a></p>
+                </div>
+            </li>
+            <li>
+                <label for="second">Learning Resources<span>&#x3e;</span></label>
+                <input type="radio" name="accordion" id="first" checked>
+                <div class="content">
+                    <br><p>Description here...</p>
+                    <a href="https://www.youtube.com/watch?v=5XVc8a0mrLo">7 Evidence-Based Study Strategies | Med School Insider YouTube Video</a>
+                    <h3>Learning Resources</h3>
+                    <p><a href="https://learningcenter.unc.edu/tips-and-tools/">The Learning Center | UNC Chapel Hill</a></p>
+                    <p><a href="https://coursera.org">Coursera</a></p>
+                    <p><a href="https://khanacademy.org">Khan Academy</a></p>
+                    <h3>Flashcards</h3>
+                    <p><a href="https://apps.ankiweb.net/">Anki Cards (web version)</a></p>
+                    <p><a href="https://quizlet.com">Quizlet</a></p>
+                    <h3>Mind Mapping</h3>
+                    <p><a href="https://www.mindmeister.com/">Mindmeister</a></p>
+                    <p><a href="https://bubbl.us/">bubble.us</a></p>
+                    <p><a href="https://tobloef.com/text2mindmap/">text2mindmap</a></p>
+                    <p><a href="https://venngage.com/features/mind-map-maker">Venngage</a></p>
+                </div>
+            </li>
+            <li>
+                <label for="third">Productivity & Organization<span>&#x3e;</span></label>
+                <input type="radio" name="accordion" id="third" checked>
+                <div class="content">
+                    <br><p>Description here...</p>
+                    <p><a href="https://pomofocus.io/">Pomodoro Timer</a></p>
+                    <h3>Project & Task Management</h3>
+                    <p><a href="https://myhomeworkapp.com/">myHomework Student Planner App</a></p>
+                    <p><a href="https://mystudylife.com/">MyStudyLife Student Planner</a></p>
+                </div>
+            </li>
+            <li>
+                <label for="fourth">Writing & Grammar<span>&#x3e;</span></label>
+                <input type="radio" name="accordion" id="fourth" checked>
+                <div class="content">
+                    <br><p>Description here...</p>
+                    <h3>Grammar Tools</h3>
+                    <p><a href="https://www.grammarly.com">Grammarly</a></p>
+                    <h3>Writing Tools</h3>
+                    <p><a href="https://www.dictionary.com/">Dictionary</a></p>
+                    <p><a href="https://www.phrasebank.manchester.ac.uk/">Manchester Phrasebook</a></p>
+                    <p><a href="https://www.powerthesaurus.org/">Power Thesaurus</a></p>
+                    <p><a href="https://www.thesaurus.com/">Thesaurus</a></p>
+                    <p><a href="https://www.wordhippo.com/">Word Hippo</a></p>
+                    <p><a href="https://www.overleaf.com/">Overleaf</a></p>
+                    <h3>Editing Tools</h3>
+                    <p><a href="https://hemingwayapp.com">Hemingway Editor</a></p>
+                    <p><a href="https://owl.purdue.edu/owl/">Purdue Online Writing Lab</a></p>
+                    <h3>Plagarism Checker</h3>
+                    <p><a href="https://plagiarismdetector.net/">Plagarism Checker</a></p>
+                </div>
+            </li>
+          </ul>
+      </div>
+    </section>
 </main>
 
 <!-- Footer-->
