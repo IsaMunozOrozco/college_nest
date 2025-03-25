@@ -259,13 +259,13 @@ html {
 }
 
 #accordion li label span {
-  transform: rotate(90deg);
   font-size: 18px;
   color: #046492;
   transition: transform 0.3s ease;
+  content: '+';
 }
 
-#accordion input[type="radio"] {
+#accordion input[type="checkbox"] {
   display: none; 
 }
 
@@ -277,19 +277,20 @@ html {
   transition: max-height 0.5s ease-in-out;
 }
 
-#accordion input[type="radio"]:checked + .content {
+#accordion input[type="checkbox"]:checked + .content {
   display: block;
   max-height: 2000px; 
 }
 
-#accordion input[type="radio"]:checked + .content + label span {
-  transform: rotate(270deg);
+#accordion input[type="checkbox"]:checked + .content + label span {
+  content:'-';
+  transform: rotate(45deg);
 }
 
 /* Hover effect on the label */
 #accordion label:hover {
   background-color: #e6e6e6;
-  color: #007BFF;
+  color: #000;
 }
 
 /* Responsive Design: Media Queries for Mobile and Small Screens */
